@@ -12,7 +12,8 @@ Musubi.ready(function(context) {
     if (start_obj == null) {
 		// Need a few seconds of initialization time,
 		// so prevent users from clicking the nose.
-		$("body").children().hide();
+		$("#pressme").hide();
+		$("#the_nose").hide();
 		$("body").append("<div id='temp'>Please wait 5 seconds...</div>");
       	
     	var gameStartText = "Started a Nose Goes. Hurry and join in if you don't want to lose!";
@@ -33,7 +34,8 @@ Musubi.ready(function(context) {
 		      	start_obj = new SocialKit.DbObj(data); 
 				
 				// Initialization is over, so show the nose again
-				$("body").children().show();
+				$("#pressme").show();
+				$("#the_nose").show();
 				$("#temp").remove();
 		      	alert("Game is now ready, now press the Nose!");
 		}
