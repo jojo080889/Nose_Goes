@@ -33,6 +33,7 @@ Musubi.ready(function(context) {
 		      	start_obj = new SocialKit.DbObj(data); 
 				
 				// Initialization is over, so show the nose again
+				$("body").children().show();
 				$("#temp").remove();
 		      	alert("Game is now ready, now press the Nose!");
 		}
