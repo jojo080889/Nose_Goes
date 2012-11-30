@@ -14,7 +14,7 @@ Musubi.ready(function(context) {
 		// so prevent users from clicking the nose.
 		$("#pressme").hide();
 		$("#the_nose").hide();
-		$("body").append("<div id='temp'>Please wait 5 seconds...</div>");
+		$("body").append("<div id='temp'>Please wait 5 seconds while Nose Goes loads...</div>");
       	
     	var gameStartText = "Started a Nose Goes. Hurry and join in if you don't want to lose!";
     	var gameIcon = "<img src='http://lisayan.github.com/Nose_Goes/musubi/apps/images/nose_goes_icon.png'>";
